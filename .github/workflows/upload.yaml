@@ -20,4 +20,4 @@ jobs:
         bucket: ${{ secrets.BUCKET }}
         localPath: "./assets"
         remotePath: "./assets"
-        clearBucket: false
+        clearBucket: true
